@@ -1,0 +1,173 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+    /* Header Styles */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+     
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      margin-left: 10%;
+      
+    }
+    .ul{
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+      }
+    .logo1 img{
+        height: 50px;
+        width: 50px;
+        }
+
+    header .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    header nav {
+      display: flex;
+      gap: 3rem;
+      margin-left: 10%;
+    }
+
+    header nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 35px;
+      
+    }
+
+    header .cta {
+      background: black;
+      color: white;
+      padding : 0.5rem 1rem;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 700px;
+      font-size: 20px;
+    }
+
+    /* Carousel Section */
+    .carousel-wrapper {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      transition: background-color 0.5s ease-in-out;
+    }
+
+    .splide__slide {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      color: white;
+      padding: 2rem;
+    }
+
+    .content {
+      max-width: 50%;
+      margin-left: 10%;
+    }
+
+    .content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  text-underline-position: from-font;
+  margin-bottom: 8px; /* Add slight spacing between elements */
+  color: white;
+    }
+  .content h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px; /* Larger font for heading */
+  font-weight: 700; /* Bold style for emphasis */
+  line-height: 50px; /* Slightly tighter line height */
+  text-align: left;
+  margin-bottom: 12px; /* Space between heading and description */
+  color: white;
+    }
+
+    .content p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 24px; /* Standard readable font size */
+      font-weight: 400;
+      line-height: 28px;
+      text-align: left;
+      margin-bottom: 10px; /* Space between description and other elements */
+      color: #555;
+      padding-top: 20px;
+      
+    }
+
+    .content .price {
+      font-family: 'Poppins', sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  color: white;
+  margin-top: 20px;
+    }
+
+    .content a {
+      margin-top: 1rem;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      
+      color: white;
+      text-decoration: none;
+      
+      font-weight: bold;
+     
+      font-size: xx-large;
+    border: 2px solid #ccc;
+    transition: background-color 0.3s, transform 0.3s;
+     border-radius: 50%; 
+    border-color: white;
+    }
+        /* Responsive */
+        @media (max-width: 768px) {
+          .content {
+            text-align: center;
+            max-width: 100%;
+          }
+    
+          .splide__slide {
+            flex-direction: column;
+          }
+        }
+        .social-icons {
+            display: flex;
+             gap: 20px;
+           
+            margin-top: 20px;
+          }
+          
+          .social-icons i {
+           
+           
+            transition: color 0.3s, transform 0.3s;
+          }
+          
+          .social-icons i:hover {
+            
+            transform: scale(1.1);}
+        
+
+
