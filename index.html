@@ -14,9 +14,10 @@
   <!-- Header -->
   <header>
     <ul class="ul">
-        <li class="logo1"><img  src="https://s3-alpha-sig.figma.com/img/02b1/236e/10fe333a49618e85c13cb2790b873d95?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fM3pOyRD101N59OuQX8UDaZPEAJ1QjIHvmGPADE~ppyJo8JudLNKxKGomfv2UXpatLebTLE2ir1~VPRC4myuo7iwdt66TlJ6owPXCOgX6ubnFnxefcab1ePZyx8k1iYwaImRLD7sI63E8Dj-L7-NdTDiHHLdBqcNhnTZjSzbl9D588TrJEipiQTJDnQixtItX0du4X5RcHspHnUwonkDBp77zxPnqNvqOVi0usBbB8TVGIpVv6WklheJte~8nrwPWsXDQBV8h5hVE-xqPJTGm2Wc~sAuSsBK4GSWHq~Ri4lsxdrc~6jjnyC7yh-ruVQG8QdW88oCWL~obcJQfrsGHA__"alt="King Logo"></li>
-        <li class="logo" ><label id="chng">KING</label></li>
-    </ul>
+        <li class="logo1"><img  src="https://s3-alpha-sig.figma.com/img/02b1/236e/10fe333a49618e85c13cb2790b873d95?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fM3pOyRD101N59OuQX8UDaZPEAJ1QjIHvmGPADE~ppyJo8JudLNKxKGomfv2UXpatLebTLE2ir1~VPRC4myuo7iwdt66TlJ6owPXCOgX6ubnFnxefcab1ePZyx8k1iYwaImRLD7sI63E8Dj-L7-NdTDiHHLdBqcNhnTZjSzbl9D588TrJEipiQTJDnQixtItX0du4X5RcHspHnUwonkDBp77zxPnqNvqOVi0usBbB8TVGIpVv6WklheJte~8nrwPWsXDQBV8h5hVE-xqPJTGm2Wc~sAuSsBK4GSWHq~Ri4lsxdrc~6jjnyC7yh-ruVQG8QdW88oCWL~obcJQfrsGHA__" alt="King Logo"></li>
+      <li class="logo" ><label id="chng">KING</label></li>
+  </ul>
+    
     <nav>
       <a href="#shop">Shop</a>
       <a href="#brands">Brands</a>
@@ -26,16 +27,38 @@
   </header>
 
   <!-- Carousel Section -->
-  <div id="carousel" class="splide carousel-wrapper">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <!-- Slides will be dynamically added -->
-      </ul>
-    </div>
+  <div id="carousel" class="carousel-wrapper">
+    <section id="carousel-section" >
+      <div class="content">
+        <h1 id="carousel-title"></h1>
+        <div style="display: flex;gap: 8px;"><h2 id="carousel-subtitle"></h2><h2 style="color: black;">Choose Us</h2></div>
+        <p id="carousel-description"></p>
+        <p id="carousel-price"></p>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+         </a>
+        <a href="https://twitter.com" target="_blank">
+         <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://youtube.com" target="_blank">
+         <i class="fab fa-youtube"></i>
+        </a>
+       </div>
+      </div>
+      <div id="carousel-images" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <!-- Slides will be dynamically injected here -->
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    
   </div>
 </div>
   
-  <script src="Week2-L2.js"></script>
+<script src="Week2-L2.js"></script>
 </body>
 </html>
-  
